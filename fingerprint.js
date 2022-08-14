@@ -1,7 +1,8 @@
 function fingerprint() {
+    const userAgent = navigator.userAgent;
     var canvas = document.createElement('canvas');
     var ctx = canvas.getContext('2d');
-    var txt = 'i9asdm..$#po((^@KbXrww!~cz';
+    var txt = userAgent;
     ctx.textBaseline = "top";
     ctx.font = "16px 'Arial'";
     ctx.textBaseline = "alphabetic";
