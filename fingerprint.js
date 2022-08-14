@@ -38,5 +38,5 @@ hash.innerHTML = fingerprint();
 //('#colorDepth').html(screen.colorDepth);
 //('#pixelDepth').html(screen.pixelDepth);
 
-console.log(screen);
+
 
